@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>92329860-5743-4ac9-9a20-60082d8a9052</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FMOD">
+      <UniqueIdentifier>{c2d0a625-ae6b-4f88-a541-41d3e36df1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FMOD\Lib">
+      <UniqueIdentifier>{5c02764b-deb2-45ea-8a4b-9c67e78b0dfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="SoundEngine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="SoundEngine.h" />
+    <ClInclude Include="FMOD\fmod.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="FMOD\fmod.hpp">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="FMOD\fmod_codec.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="FMOD\fmod_common.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="FMOD\fmod_dsp.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="FMOD\fmod_dsp_effects.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="FMOD\fmod_errors.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="FMOD\fmod_output.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="FMOD\fmod_windowsphone.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FMOD\Lib\fmod_ARM.dll">
+      <Filter>FMOD\Lib</Filter>
+    </None>
+    <None Include="FMOD\Lib\fmod_X86.dll">
+      <Filter>FMOD\Lib</Filter>
+    </None>
+    <None Include="FMOD\Lib\fmodL_ARM.dll">
+      <Filter>FMOD\Lib</Filter>
+    </None>
+    <None Include="FMOD\Lib\fmodL_X86.dll">
+      <Filter>FMOD\Lib</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="FMOD\Lib\fmod_ARM.lib">
+      <Filter>FMOD\Lib</Filter>
+    </Library>
+    <Library Include="FMOD\Lib\fmod_X86.lib">
+      <Filter>FMOD\Lib</Filter>
+    </Library>
+    <Library Include="FMOD\Lib\fmodL_ARM.lib">
+      <Filter>FMOD\Lib</Filter>
+    </Library>
+    <Library Include="FMOD\Lib\fmodL_X86.lib">
+      <Filter>FMOD\Lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
