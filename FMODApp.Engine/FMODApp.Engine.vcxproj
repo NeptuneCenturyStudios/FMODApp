@@ -154,10 +154,18 @@
     <ClCompile Include="SoundEngine.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="FMOD\Lib\fmodL_ARM.dll" />
-    <None Include="FMOD\Lib\fmodL_X86.dll" />
-    <None Include="FMOD\Lib\fmod_ARM.dll" />
-    <None Include="FMOD\Lib\fmod_X86.dll" />
+    <None Include="FMOD\Lib\fmodL_ARM.dll">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
+    <None Include="FMOD\Lib\fmodL_X86.dll">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
+    <None Include="FMOD\Lib\fmod_ARM.dll">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
+    <None Include="FMOD\Lib\fmod_X86.dll">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Library Include="FMOD\Lib\fmodL_ARM.lib" />

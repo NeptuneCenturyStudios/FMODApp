@@ -110,6 +110,12 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FMODApp.Engine\FMODApp.Engine.vcxproj">
+      <Project>{ebca5aed-c9ed-47ab-9d9e-eb98e5305d4e}</Project>
+      <Name>FMODApp.Engine</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
