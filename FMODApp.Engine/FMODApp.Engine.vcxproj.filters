@@ -48,20 +48,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="FMOD\Lib\fmod_ARM.dll">
-      <Filter>FMOD\Lib</Filter>
-    </None>
-    <None Include="FMOD\Lib\fmod_X86.dll">
-      <Filter>FMOD\Lib</Filter>
-    </None>
-    <None Include="FMOD\Lib\fmodL_ARM.dll">
-      <Filter>FMOD\Lib</Filter>
-    </None>
-    <None Include="FMOD\Lib\fmodL_X86.dll">
-      <Filter>FMOD\Lib</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <Library Include="FMOD\Lib\fmod_ARM.lib">
       <Filter>FMOD\Lib</Filter>
     </Library>

@@ -8,12 +8,13 @@ using namespace Platform;
 //constructor
 SoundEngine::SoundEngine()
 {
-	int i = 1;
-	////start up the FMOD system
+	//int i = 1;
+	//start up the FMOD system
 	//FMOD_RESULT result = FMOD_System_Create(this->system);
-	////check the result
-	//if (result != FMOD_OK){
-	//	throw ref new Exception(0, "FMOD failed to initialize");
-	//}
+	FMOD_RESULT result = FMOD::System_Create(&this->_system);
+	//check the result
+	if (result != FMOD_OK){
+		throw ref new Exception(result, "FMOD failed to initialize");
+	}
 }
 

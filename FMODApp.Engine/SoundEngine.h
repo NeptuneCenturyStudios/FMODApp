@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-#include "FMOD\fmod.h"
+#include "FMOD\fmod.hpp"
 //namespace FMODApp_Engine{}
 
 namespace FMODApp//_Engine
@@ -10,7 +10,7 @@ namespace FMODApp//_Engine
 		{
 
 		private:
-			FMOD_SYSTEM **system;
+			FMOD::System* _system;
 
 		public:
 			SoundEngine();
